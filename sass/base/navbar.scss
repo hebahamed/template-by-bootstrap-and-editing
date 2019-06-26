@@ -1,0 +1,67 @@
+.container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+    .navbar
+    {
+        padding: 2rem;
+        background-color:#222629;
+        padding-left: 8rem;
+        padding-top: 0;
+        
+         
+        .navbar-brand
+        {
+            margin-right: 8rem;
+            padding-top: 2.5rem;
+        }
+
+        .navbar-nav
+        {
+            margin-top: -1.3rem;
+        }
+    }
+    
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color: rgb(0, 183, 255);
+    // border-top: 2px solid rgb(0, 183, 255);
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: white;
+    font-size: 14px;
+    margin-left: 1rem;
+    padding-top: 2.5rem;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    
+    color: rgb(0, 183, 255);
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus
+{
+    border-top: 2.5px solid rgb(0, 183, 255);
+    padding-top: 2.5rem;
+}
+
+
+@media screen and (max-width: 576px) {
+   .container-fluid
+   {
+    .navbar {
+        padding-left: 2rem;
+        .navbar-brand {
+          margin-right: 0; 
+        }
+        .navbar-nav
+        {
+            margin-top: 1rem;
+        } 
+      }
+   }
+      
+    }
+  

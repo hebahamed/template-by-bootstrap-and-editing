@@ -1,0 +1,104 @@
+.section6
+{
+    background-image: url(../img/earth.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+    margin-top: 7rem;
+    color: white;
+
+    .opacity
+    {
+        background-color: rgba(0,0,0,0.5);
+    padding-bottom: 2rem;
+
+        .container
+        {
+            h2 
+            {
+                font-weight: 300;
+                font-size: 50px;
+                
+            }
+            p  
+            {
+                width: 70%;
+                text-align: center;
+                
+            }
+        }
+        .persons
+        {
+            margin-top: 1.5rem;
+        }
+        .first_person
+        {
+            padding: 1rem;
+            .card1
+            {
+                padding: 1rem;
+                background-color: #6739B6;
+                text-align: center;
+                border-radius: 25px;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                line-height: 1.4rem;
+                // border-bottom: 8px solid #6739B6;
+    
+                &_card2 
+                {
+                    background-color: #9C26B0;
+                }
+                &_card3 
+                {
+                    background-color: #E91D62;
+                }
+                
+            }
+            
+              .triangle-down {
+                width: 0;
+                height: 0;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                border-top: 30px solid #6739B6;
+                margin-left: 10rem;
+
+                &-card2 
+                {
+                    border-top: 30px solid #9C26B0;
+                }
+
+                &-card3 
+                {
+                    border-top: 30px solid #E91D62;
+                }
+
+            }
+            .first_img
+            {
+                margin-top: 1rem;
+            }
+            .person_name
+            {
+                margin: auto;
+                width: 50%;
+                padding-top: 1rem;
+                h5
+                {
+                    font-weight: 400;
+                }
+                a
+                {
+                    color: #6AC6E0;
+                }
+                a:hover 
+                {
+                    color: #6AC6E0;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+    }
+}

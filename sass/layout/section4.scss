@@ -1,0 +1,70 @@
+.section4
+{
+    margin-top: 5rem;
+    color: white;
+    .redCard,.yellowCard,.orangeCard
+    {
+        background-color: #F04E4E;
+        padding: 1.5rem;
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+        h2 
+        {
+            font-weight: 300;
+            font-size: 40px;
+
+            .bold_title
+            {
+                font-weight: 700;
+            }
+           
+        }
+        button 
+        {
+            background-color: #CB4243;
+            padding-right: 5rem;
+        }
+        .btn_circle
+        {
+            padding: 1rem;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            border-color: transparent;
+            background-color: #DD4344;
+            margin-left: -2rem;
+        }
+        button:hover
+           {
+               border: none;
+           }
+    }
+    .orangeCard
+    {
+        background-color:#FF9700;
+        button 
+        {
+            background-color: #EC8E06;
+        }
+        .btn_circle
+           {
+               background-color: #F69201;
+           }
+
+    }
+
+    .yellowCard
+    {
+        background-color:#FECC17;
+        button 
+        {
+            background-color: #F0BC00;
+        }
+        .btn_circle
+           {
+               background-color: #F8C407;
+           }
+
+    }
+   
+}

@@ -1,0 +1,17 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "node-sass sass/main.scss css/style.css -w",
+    "start2": "node-sass node_modules/bootstrap/scss/bootstrap.scss css/bootstrap.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.10.0",
+    "sass": "^1.15.1"
+  }
+}
